@@ -1,0 +1,75 @@
+body {
+    --default-background-color: darkred;
+    --secondary-background-color: black;
+    --header-background-color: lightgray;
+    --heading-text-color: lavender;
+    --normal-text-color: red;
+    --normal-font: monospace;
+    --title-font: monospace;
+    background-image: url("./images/background.png");
+    color: var(--heading-text-color);
+    width: auto;
+    height: auto;
+}
+
+body * {
+    text-align: end;
+}
+
+aside {
+    margin: 0px 850px 0px 0px;
+    width: 250px;
+}
+
+section {
+    background-color: none;
+}
+
+main * {
+    background-color: var(--secondary-background-color);
+    font-family: var(--normal-font);
+}
+
+table * {
+    border: 0.2rem solid var(--normal-text-color);
+    padding: 1em;
+}
+
+img {
+    padding: 5%;
+    margin-left: 40%;
+}
+
+h1 {
+    width: 80%;
+    height: 5%;
+    margin: 1%;
+    padding: 1%;
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+footer {
+    text-align: center;
+    height: auto;
+    width: auto;
+    font-family: var(--normal-font);
+    background-color: var(--secondary-background-color);
+}
+
+header * {
+    background-color: var(--header-background-color);
+    color: var(--normal-text-color);
+    display: inline;
+    font-size: 125%;
+    font-family: var(--title-font);
+}
+
+p {
+    color: var(--normal-text-color);
+    margin: 5%;
+    padding-bottom: 10px;
+}

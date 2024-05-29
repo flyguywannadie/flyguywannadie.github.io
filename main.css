@@ -54,6 +54,7 @@ header * {
     background-color: var(--header-background-color);
     color: var(--normal-text-color);
     display: inline;
+    text-align: center;
     font-size: 35px;
     font-family: var(--title-font);
 }

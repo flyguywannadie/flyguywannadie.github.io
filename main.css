@@ -10,6 +10,7 @@ body {
 
     background-color: var(--default-background-color);
     color: var(--heading-text-color);
+    text-align: center;
     width: 800px;
     height: 600px;
 }

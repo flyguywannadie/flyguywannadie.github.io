@@ -87,13 +87,19 @@ p {
     background-color: var(--header-background-color);
 }
 
+iframe {
+    margin: 15px;
+    padding: 10px;
+}
+
 .GameBlurb {
-    font-size: 30px;
+    font-size: 25px;
     background-color: var(--header-background-color);
 }
 
 .hbc {
     background-color: var(--header-background-color);
+    margin: 0;
 }
 
 .projectlist {

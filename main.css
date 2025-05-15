@@ -97,6 +97,12 @@ iframe {
     background-color: var(--header-background-color);
 }
 
+.SmallGameBlurb {
+    font-size: 25px;
+    width: 50%;
+    background-color: var(--header-background-color);
+}
+
 .hbc {
     background-color: var(--header-background-color);
     margin: 0;
